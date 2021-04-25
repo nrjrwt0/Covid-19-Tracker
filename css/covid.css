@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-wrap: break-word;
+}
+.container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.heading {
+  padding: 20px;
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 8px 10px;
+  background-color: teal;
+  color: #dbdbdb;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+#searchBar {
+  width: 98%;
+  margin: auto;
+  background-color: #1a1c1f;
+  padding: 4px 8px;
+}
+#searchBar > i {
+  color: white;
+  margin-right: 10px;
+}
+#searchBar > input {
+  width: 96%;
+  background-color: #1a1c1f;
+  border: none;
+  margin: 0px auto;
+  color: white;
+}
+#covidAllData {
+  padding: 0px 4px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.covidData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 125px;
+  background-color: #1a1c1f;
+  padding: 12px 20px;
+  margin: 10px 0px;
+}
+.covidData > h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #dbdbdb;
+}
+.covidData > p {
+  color: #949494;
+}
+.covidData a {
+  color: #3880ff;
+}
+.fetchNumbers {
+  font-size: 27px;
+}
+footer {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#belowIcons {
+  display: flex;
+}
+
+#belowIcons > a {
+  text-decoration: none;
+  color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  margin: 0 60px;
+}
+
+#belowIcons > a > i {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#belowIcons > .current {
+  color: #3880ff;
+}
+input {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 8px 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.createdBy {
+  color: white;
+  font-size: 18px;
+  background-color: #1a1c1f;
+  padding: 10px 0px;
+  margin: 0px;
+  margin-top: 30px;
+}
+.createdBy > i {
+  margin: 0px 10px;
+}
